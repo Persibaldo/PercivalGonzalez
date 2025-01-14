@@ -13,5 +13,5 @@ Se resuben al repisotorio particular los ejercicios de la primera evaluación
 ## Sanderson
 - Infografía sobre un escritor de fantasía épica
 
-## Videojuegos 
+## sv&bg3
 - Una página fan sobre un par de videojuegos con una sorprendente superposición entre sus seguidores
