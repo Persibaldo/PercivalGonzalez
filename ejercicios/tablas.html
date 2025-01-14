@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        #primera {
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 50%;
+        }
+        #primera td, #primera th {
+            border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center
+        }
+        #segunda {
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 20%; 
+        }
+        #segunda td, #segunda th {
+            border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left
+        }
+        #segunda tr:nth-child(even) {background-color: rgb(113, 151, 113); }
+        #segunda th {
+            background-color: rgb(207, 226, 100);
+
+        }
+    </style>
+</head>
+<body>
+    <h1>La primera tabla</h1>
+    <table id="primera">
+<tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Curso</th>
+</tr>
+<tr>
+    <td>Luis</td>
+    <td>Romero</td>
+    <td>4º</td>
+</tr>
+<tr>
+    <td>María</td>
+    <td>Lopez</td>
+    <td>2º</td>
+</tr>
+<tr>
+<td>Adrián</td>
+<td>Alonso</td>
+<td>3º</td>
+</tr>
+    </table>
+    <h1 style="background-color: red; width: 20%; color: whitesmoke;">La segunda tabla</h1>
+    <table id="segunda">
+<tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Curso</th>
+</tr>
+<tr>
+    <td>Luis</td>
+    <td>Romero</td>
+    <td>4º</td>
+</tr>
+<tr>
+    <td>María</td>
+    <td>Lopez</td>
+    <td>2º</td>
+</tr>
+<tr>
+<td>Adrián</td>
+<td>Alonso</td>
+<td>3º</td>
+</tr>
+    </table>
+</body>
+
+</html>
